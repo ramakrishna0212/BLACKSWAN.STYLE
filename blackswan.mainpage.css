@@ -1,0 +1,45 @@
+body{
+  font-family: sans-serif;
+    background-image: url("https://s3-ap-northeast-1.amazonaws.com/pf-web/fanclubs/154/assets/237/images/top/main.jpg");
+    background-repeat: no-repeat;
+    background-size: 113%;
+}
+.barslide{
+    margin-top: 7.5%;
+    padding-left: 0%;
+    color: white;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.video {
+    margin-left: 16px;
+    color: #ffffff;
+    font-size: xxx-large;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    margin-top: 16px;
+    font-family: sans-serif;
+}
+
+.text{
+    margin-top: -16%;
+    margin-left: 36%;
+    font-size: large;
+    float: left;
+    font-family: fangsong;
+    display: contents;
+
+}
+.heading2{
+  padding-left: 3%;
+  font-size: xx-large;
+  font-family: system-ui;
+  padding-top: 11%;
+}
+
+.rights{
+  padding-left: 79%;
+    padding-top: 36%;
+  font-size: x-small;
+}

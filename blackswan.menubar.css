@@ -1,0 +1,53 @@
+body{
+    background-color: #ffffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.logo{
+    margin-left: 16px;
+    color: #000000;
+    font-size: xxx-large;
+    letter-spacing: 6px;
+    font-weight: bolder;
+    margin-top: 16px;
+    font-family: sans-serif;
+}
+
+.menu-bar {
+    margin-top: 99px;
+    padding-left: 60%;
+    font-size: large;
+    line-height: 55px;
+}
+a{
+    position: relative;
+    text-decoration: blink;
+    color: #000000;
+    letter-spacing: 0.5px;
+    padding: 0 3px;
+}
+a:after{
+    content: "";
+    position: absolute;
+    background-color: #00000073;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: -3px;
+    transition: 0.3s;
+}
+a:hover:after{
+    width: 95%;
+}
+img{
+    margin-top: -36%;
+    margin-left: 2%;
+}
+.otheroptions{
+    margin-top: -8%;
+}
+
+.rights{
+    padding-left: 73%;
+    padding-top: 5%;
+    font-size: x-small;
+}

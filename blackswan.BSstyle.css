@@ -1,0 +1,158 @@
+body{
+    background-color: rgb(0, 0, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.option{
+    padding-left: 1%;
+    margin-top: -9%;
+}
+
+.title{
+    font-family: sans-serif;
+    padding-left: 1070px;
+    margin-top: -177px;
+    font-size: small;
+    color: aliceblue;
+}
+.title1{
+    font-family: fantasy;
+    padding-left: 73%;
+    margin-top: -31%;
+    font-size: xxx-large;
+    color: aliceblue;
+    line-height: 181%;
+}
+.homes{
+    padding-left: 88%;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+.middle{
+    position: absolute;
+    top: 194%;
+    left: 79%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-weight: 500;
+    color: #ffffff;
+}
+.middle2{
+    position: absolute;
+    top: 274%;
+    left: 22%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.middle3{
+    position: absolute;
+    top: 399%;
+    left:49%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.btn{
+    color: #ffffff;
+    background: none;
+    border: 2px solid #000000;
+    font-size: small;
+    text-transform: uppercase;
+    padding: 12px 20px;
+    min-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+}
+.btn::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0);
+    z-index: -1;
+    transition: transform 0.5s;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5,1.6,0.4,0.7);
+}
+.btn1::before{
+    transform: scaleX(0);
+}
+.btn1:hover::before{    
+    transform: scaleX(1);
+}
+.vintage.com{
+    color: white;
+    padding-left: 47%;
+    margin-top: 41%;
+    font-size: smaller;
+}
+
+.sites{
+    padding-left: 24%;
+    padding-top:5%;
+    font-size: small;
+}
+.sites1{
+    margin-left:49%;
+    margin-top: -18%;
+    float: left;
+    font-size: xxx-large;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
+}
+.h3{
+    font-size: x-large;
+    width: 100%;
+    height: 1px;
+    padding-top: 8%;
+}
+.help{ 
+    padding-top: 48.5%;
+    font-size: small;
+    color: white;
+}
+ul {
+    list-style: none;
+}
+
+ul li {
+    top: 0%;
+    display: inline-block;
+    position: relative;
+}
+
+ul li a {
+    margin: 0%;
+    display: block;
+    padding: 20px 25px;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;   
+}
+ul li ul.dropdown {
+    margin-top: -185%;
+    padding-left: 163%;
+    width: 6%;
+    position: absolute;
+    display: none;
+    font-size: larger;
+}
+
+ul li a:hover {
+    margin: 0%;
+}
+
+ul li:hover ul.dropdown {
+    display: block;
+}
+
+.rights{
+    padding-left: 66%;
+    padding-top: 3%;
+    font-size: x-small;
+}
